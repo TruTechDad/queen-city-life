@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <meta
+      name="description"
+      content="Queen City Life helps residents find municipal services, departments, alerts, and community information."
+    />
+    <title>Queen City Life</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content"> Skip to main content </a>
+
+    <header class="site-header">
+      <div class="container header-container">
+        <a href="index.html" class="logo"> Queen City Life </a>
+
+        <nav aria-label="Primary navigation">
+          <ul class="nav-list">
+            <li>
+              <a href="services.html">Services</a>
+            </li>
+
+            <li>
+              <a href="departments.html">Departments</a>
+            </li>
+
+            <li>
+              <a href="report.html">Report an Issue</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="alert" aria-labelledby="city-alert-heading">
+        <div class="container">
+          <h2 id="city-alert-heading">City Alert</h2>
+
+          <p>
+            Road maintenance will affect several downtown streets this weekend.
+          </p>
+
+          <a href="#"> View traffic information </a>
+        </div>
+      </section>
+
+      <section class="hero">
+        <div class="container">
+          <h1>How can we help?</h1>
+
+          <p>
+            Find services, information, and resources from your local
+            government.
+          </p>
+
+          <form class="service-search" role="search">
+            <label for="service-search"> Search city services </label>
+
+            <div class="search-group">
+              <input
+                type="search"
+                id="service-search"
+                name="service-search"
+                placeholder="Try permits, trash collection, parks..."
+              />
+
+              <button type="submit">Search</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section
+        class="popular-services"
+        aria-labelledby="popular-services-heading"
+      >
+        <div class="container">
+          <h2 id="popular-services-heading">Popular Services</h2>
+
+          <div class="service-grid">
+            <a href="#" class="service-card">
+              <h3>Pay a Bill</h3>
+              <p>Pay utilities and other city fees.</p>
+            </a>
+
+            <a href="#" class="service-card">
+              <h3>Trash & Recycling</h3>
+              <p>Find collection schedules and recycling information.</p>
+            </a>
+
+            <a href="#" class="service-card">
+              <h3>Permits</h3>
+              <p>Access permit applications and requirements.</p>
+            </a>
+
+            <a href="report.html" class="service-card">
+              <h3>Report an Issue</h3>
+              <p>Report potholes, damaged signs, and other concerns.</p>
+            </a>
+
+            <a href="#" class="service-card">
+              <h3>Parks & Recreation</h3>
+              <p>Discover parks, programs, and recreation facilities.</p>
+            </a>
+
+            <a href="#" class="service-card">
+              <h3>Public Safety</h3>
+              <p>Access emergency and public safety resources.</p>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; 2026 Queen City Life. All rights reserved.</p>
+
+        <nav aria-label="Footer navigation">
+          <ul>
+            <li>
+              <a href="accessibility.html"> Accessibility </a>
+            </li>
+
+            <li>
+              <a href="#"> Privacy </a>
+            </li>
+
+            <li>
+              <a href="#"> Contact </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
